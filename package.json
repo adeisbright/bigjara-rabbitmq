@@ -1,0 +1,31 @@
+{
+  "name": "node-rabbitmq",
+  "version": "1.0.0",
+  "description": "A wrapper around amqplib with useful methods for creating and reading mesasges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbit-mq",
+    "message",
+    "broker",
+    "event",
+    "driven",
+    "service",
+    "helpers"
+  ],
+  "author": "Adeleke Bright",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.9.0",
+    "mocha": "^9.2.1",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1"
+  }
+}

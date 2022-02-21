@@ -3,22 +3,19 @@
   "version": "1.0.0",
   "description": "A wrapper around amqplib with useful methods for creating and reading mesasges",
   "main": "index.js",
+  "contributors": [
+    {
+      "name": "Adeleke Bright",
+      "email": "adenababanla@gmail.com",
+      "url": "https://linkedin.com/in/adeleke-bright"
+    }
+  ],
   "scripts": {
     "test": "mocha ./lib/*.test.js" , 
     "start" : "node index.js",
     "devstart" : "nodemon index.js"
   },
-  "keywords": [
-    "rabbit-mq",
-    "message",
-    "broker",
-    "event",
-    "driven",
-    "service",
-    "helpers"
-  ],
   "author": "Adeleke Bright",
-  "license": "ISC",
   "dependencies": {
     "amqplib": "^0.8.0"
   },
@@ -29,5 +26,22 @@
     "nodemon": "^2.0.15",
     "nyc": "^15.1.0",
     "sinon": "^13.0.1"
-  }
+  },
+  "engines": {
+    "node": ">=12.0"
+  },
+  "homepage": "https://github.com/bigjara/bigjara-otp#readme",
+  "license": "http://www.apache.org/licenses/",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeisbright/node-rabbitmq"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "node-rabbitmq",
+    "Node Rabbit MQ",
+    "RabbitMQ Helper",
+    "amqplib wrapper"
+  ]
 }

@@ -4,7 +4,9 @@
   "description": "A wrapper around amqplib with useful methods for creating and reading mesasges",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./lib/*.test.js" , 
+    "start" : "node index.js",
+    "devstart" : "nodemon index.js"
   },
   "keywords": [
     "rabbit-mq",

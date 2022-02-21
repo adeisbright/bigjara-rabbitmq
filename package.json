@@ -1,5 +1,5 @@
 {
-  "name": "node-rabbitmq",
+  "name": "node-rabbit",
   "version": "1.0.0",
   "description": "A wrapper around amqplib with useful methods for creating and reading mesasges",
   "main": "index.js",
